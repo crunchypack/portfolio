@@ -24,7 +24,7 @@ class MyForm extends React.Component {
   handleSubmit = e => {
     e.preventDefault();
     this.setState({ disabled: true });
-    Axios.post("http://localhost:3030/api/email", this.state)
+    Axios.post("https://lobonode.ddns.net/api/email", this.state)
       .then(res => {
         if (res.data.success) {
           this.setState({

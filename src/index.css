@@ -42,3 +42,7 @@ code {
   color: #ee6352;
   padding: 10px 15px;
 }
+.skill-card{
+  width: 120px;
+  height: 90px;
+}
