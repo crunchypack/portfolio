@@ -18,15 +18,15 @@ class App extends React.Component {
       headerLinks: [
         {
           title: "Home",
-          path: "/"
+          path: "/simon"
         },
         {
           title: "About",
-          path: "/about"
+          path: "/simon/about"
         },
         {
           title: "Contact",
-          path: "/contact"
+          path: "/simon/contact"
         }
       ],
       home: {
@@ -49,7 +49,7 @@ class App extends React.Component {
           <Header />
           <Switch>
             <Route
-              path="/"
+              path="/simon"
               exact
               render={() => (
                 <HomePage
@@ -60,12 +60,12 @@ class App extends React.Component {
               )}
             />
             <Route
-              path="/about"
+              path="/simon/about"
               exact
               render={() => <AboutPage title={this.state.about.title} />}
             />
             <Route
-              path="/contact"
+              path="/simon/contact"
               render={() => <ContactPage title={this.state.contact.title} />}
             />
           </Switch>
