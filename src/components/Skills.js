@@ -12,7 +12,7 @@ class Skills extends React.Component {
   getSkills = skills => {
     return skills.map(skill => {
       return (
-        <Col key={skill.id}>
+        <Col key={skill.id} md="auto">
           <Image
             className="skill-card"
             src={skill.img}

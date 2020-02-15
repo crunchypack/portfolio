@@ -10,13 +10,13 @@ const Header = () => {
       <Navbar.Toggle aria-controls="navbar-toogle" className="border-0" />
       <Navbar.Collapse id="navbar-toggle">
         <Nav className="ml-auto">
-          <Link to="/" className="nav-link">
+          <Link to="/simon" className="nav-link">
             Home
           </Link>
-          <Link to="/about" className="nav-link">
+          <Link to="/simon/about" className="nav-link">
             About
           </Link>
-          <Link to="/contact" className="nav-link">
+          <Link to="/simon/contact" className="nav-link">
             Contact
           </Link>
         </Nav>
